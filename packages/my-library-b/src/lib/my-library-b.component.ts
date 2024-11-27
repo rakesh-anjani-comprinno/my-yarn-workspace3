@@ -4,7 +4,7 @@ import { MyLibraryAComponent } from "@my-yarn-workspace3/my-library-a";
 
 @Component({
   selector: 'lib-my-library-b',
-  imports: [],
+  imports: [MyLibraryAComponent],
   template: `
     <p>
       my-library-b works!

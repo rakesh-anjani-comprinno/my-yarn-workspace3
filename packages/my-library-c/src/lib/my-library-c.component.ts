@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'lib-my-library-a',
+  selector: 'lib-my-library-c',
   imports: [],
   template: `
     <p>
-      my-library-a works!
+      my-library-c works!
     </p>
   `,
   styles: ``
 })
-export class MyLibraryAComponent {
+export class MyLibraryCComponent {
 
 }

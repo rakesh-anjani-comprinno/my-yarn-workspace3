@@ -10,8 +10,7 @@
   },
   "private": true,
   "workspaces": [
-    "./packages/my-library-a",
-    "./packages/my-library-b"
+    "./packages/*"
   ],
   "dependencies": {
     "@angular/animations": "^19.0.0",

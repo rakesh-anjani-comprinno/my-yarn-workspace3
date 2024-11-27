@@ -9,12 +9,20 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
+    "baseUrl":".",
     "paths": {
       "my-library-a": [
         "./dist/my-library-a",
       ],
       "my-library-b": [
         "./dist/my-library-b"
+      ],
+      "@my-yarn-workspace3/my-library-a": ["dist/my-library-a"],
+      "@my-yarn-workspace3/my-library-b": [
+        "dist/my-library-b"
+      ],
+      "my-library-c": [
+        "./dist/my-library-c"
       ]
     },
     "skipLibCheck": true,
