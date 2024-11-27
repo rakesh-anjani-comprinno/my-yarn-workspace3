@@ -1,14 +1,13 @@
 {
-  "name": "my-library-b",
+  "name": "@my-yarn-workspace3/my-library-b",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^19.0.0",
     "@angular/core": "^19.0.0"
   },
   "dependencies": {
-    "my-library-b": "file:",
     "tslib": "^2.3.0",
-    "my-library-a":"*"
+    "@my-yarn-workspace3/my-library-a":"*"
   },
   "sideEffects": false
 }

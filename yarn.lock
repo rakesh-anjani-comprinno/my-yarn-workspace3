@@ -1589,6 +1589,12 @@
   resolved "https://registry.npmjs.org/@msgpackr-extract/msgpackr-extract-win32-x64/-/msgpackr-extract-win32-x64-3.0.3.tgz"
   integrity sha512-x0fWaQtYp4E6sktbsdAqnehxDgEc/VwM7uLsRCYWaiGu0ykYdZPiS8zCWdnjHwyiumousxfBm4SO31eXqwEZhQ==
 
+"@my-yarn-workspace3/my-library-a@file:packages/my-library-a":
+  version "0.0.1"
+  dependencies:
+    "@my-yarn-workspace3/my-library-a" "file:../../../AppData/Local/Yarn/Cache/v6/npm-@my-yarn-workspace3-my-library-a-0.0.1-3904e06c-4574-46d6-8208-ef16f0ad9ef3-1732706487102/node_modules/@my-yarn-workspace3/my-library-a"
+    tslib "^2.3.0"
+
 "@napi-rs/nice-android-arm-eabi@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@napi-rs/nice-android-arm-eabi/-/nice-android-arm-eabi-1.0.1.tgz#9a0cba12706ff56500df127d6f4caf28ddb94936"
@@ -5017,19 +5023,6 @@ mute-stream@^2.0.0:
   resolved "https://registry.npmjs.org/mute-stream/-/mute-stream-2.0.0.tgz"
   integrity sha512-WWdIxpyjEn+FhQJQQv9aQAYlHoNVdzIzUySNV1gHUPDSdZJ3yZn7pAAbQcV7B56Mvu881q9FZV+0Vx2xC44VWA==
 
-"my-library-a@file:packages/my-library-a":
-  version "0.0.1"
-  dependencies:
-    my-library-a "file:../../../AppData/Local/Yarn/Cache/v6/npm-my-library-a-0.0.1-5d6b1486-a0ee-42ef-b730-946f35c8ccb0-1732696802614/node_modules/my-library-a"
-    tslib "^2.3.0"
-
-"my-library-b@file:packages/my-library-b":
-  version "0.0.1"
-  dependencies:
-    my-library-a "*"
-    my-library-b "file:../../../AppData/Local/Yarn/Cache/v6/npm-my-library-b-0.0.1-7bd64706-a12c-49ef-b289-49d370e5b8c7-1732696802615/node_modules/my-library-b"
-    tslib "^2.3.0"
-
 "my-yarn-workspace3@file:.":
   version "0.0.0"
   dependencies:
@@ -5041,7 +5034,7 @@ mute-stream@^2.0.0:
     "@angular/platform-browser" "^19.0.0"
     "@angular/platform-browser-dynamic" "^19.0.0"
     "@angular/router" "^19.0.0"
-    my-yarn-workspace3 "file:../../../AppData/Local/Yarn/Cache/v6/npm-my-yarn-workspace3-0.0.0-7a415821-0c38-4b14-bf49-c27014837873-1732696800920/node_modules/my-yarn-workspace3"
+    my-yarn-workspace3 "file:../../../AppData/Local/Yarn/Cache/v6/npm-my-yarn-workspace3-0.0.0-1c9b471c-cd86-4b64-8692-ba16f7a82695-1732706483388/node_modules/my-yarn-workspace3"
     rxjs "~7.8.0"
     tslib "^2.3.0"
     zone.js "~0.15.0"

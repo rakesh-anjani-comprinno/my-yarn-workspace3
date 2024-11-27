@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { MyLibraryAComponent } from "my-library-a";
+import { MyLibraryAComponent } from "@my-yarn-workspace3/my-library-a";
+
 
 @Component({
   selector: 'lib-my-library-b',
